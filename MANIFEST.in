@@ -1,0 +1,2 @@
+include tmux-buffer/*.txt
+include tmux-buffer/*.csv
