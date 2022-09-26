@@ -7,13 +7,13 @@ Clean, extract and visualise data.
 1. Install:
 
 ```
-pip install python_package
+pip install tmux_buffer
 ```
 
 2. Clean, Extract and Visualise:
 
 ```python
-from python_package import tmux_buffer_cev_test
+from tmux_buffer import tmux_buffer_cev_test
 
 # clean the dataset
 cleandata(pd.read_csv('tmux_buffer.txt', sep='\t', header=None))
