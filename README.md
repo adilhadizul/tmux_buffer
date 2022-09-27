@@ -7,8 +7,8 @@ Clean, extract and visualise data.
 Step 1: CMD
 
 ```
-Create Environment Using CMD (refer to: https://stackoverflow.com/questions/35950740/virtualenv-is-not-recognized-as-an-internal-or-external-command-operable-prog)
-```
+Create Environment Using CMD (refer to: https://stackoverflow.com/questions/35950740/virtualenv-is-not-recognized-as-an-internal-or-external-command-operable-prog / https://www.youtube.com/watch?v=DJn7X0QZ0qQ / https://www.youtube.com/watch?v=AbRuG4-QwOo)
+
 python -m virtualenv .
 .\scripts\activate
 ```
@@ -27,14 +27,11 @@ pip install pandas
 pip install matplotlib
 pip install tqdm
 pip install tmux_buffer
-```
+
 import pandas as pd
 import matplotlib.pyplot as plt
-```
-from tqdm import tqdm_notebook
-```
 
-```python
+from tqdm import tqdm_notebook
 from tmux_buffer import tmux_buffer_cev_test
 
 # clean the dataset
