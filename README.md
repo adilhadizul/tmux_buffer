@@ -43,3 +43,6 @@ tmux_buffer_cev_test.Fold0(pd.read_csv('extractedfinal.csv', index_col=False))
 ```
 
 3. Done
+
+# ignore
+pip install ipywidgets
